@@ -1,0 +1,171 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 4080 >>
+stream
+0.8 w
+0.2 0.4 0.8 RG
+50 666 m 562 666 l S
+50 586 m 562 586 l S
+50 478 m 562 478 l S
+50 394 m 562 394 l S
+50 243 m 562 243 l S
+BT
+/F2 22 Tf
+1 0 0 1 50 740 Tm
+(VENKATA SREEDHAR REDDY PALLETI) Tj
+/F1 12 Tf
+1 0 0 1 50 722 Tm
+(Senior Software Engineer | Full-Stack Cloud & Web Architect) Tj
+/F1 9 Tf
+1 0 0 1 50 706 Tm
+(Location: Andhra Pradesh, India  |  Email: palletisreedharreddy82@gmail.com  |  Phone: +91-8885439267) Tj
+/F1 9 Tf
+1 0 0 1 50 694 Tm
+(GitHub: github.com  |  LinkedIn: linkedin.com  |  Portfolio: sreedhar.dev) Tj
+/F2 12 Tf
+1 0 0 1 50 670 Tm
+(PROFESSIONAL SUMMARY) Tj
+/F1 9.5 Tf
+1 0 0 1 50 654 Tm
+(Accomplished Senior Software Engineer with 6+ years of specialized experience architecting scalable) Tj
+/F1 9.5 Tf
+1 0 0 1 50 641 Tm
+(cloud-native web applications, distributed backend services, and interactive user interfaces.) Tj
+/F1 9.5 Tf
+1 0 0 1 50 628 Tm
+(Proven expertise in Java, Spring Boot, React, Node.js, Python, MongoDB, Kubernetes, and Azure cloud.) Tj
+/F1 9.5 Tf
+1 0 0 1 50 615 Tm
+(Deep passion for clean architectural design, microservices, automated CI/CD pipelines, and data systems.) Tj
+/F2 12 Tf
+1 0 0 1 50 590 Tm
+(PROFESSIONAL EXPERIENCE) Tj
+/F2 10.5 Tf
+1 0 0 1 50 574 Tm
+(GE Vernova  --  Sr Software Engineer) Tj
+/F1 9 Tf
+1 0 0 1 50 561 Tm
+(Oct 2025 - Present  |  Bengaluru / Remote) Tj
+/F1 9 Tf
+1 0 0 1 60 547 Tm
+(- Leading full-stack architecture for industrial energy analytics pipelines and mission-critical cloud apps.) Tj
+/F1 9 Tf
+1 0 0 1 60 534 Tm
+(- Engineered high-throughput microservices using Java Spring Boot, Node.js, and MongoDB.) Tj
+/F1 9 Tf
+1 0 0 1 60 521 Tm
+(- Implemented resilient API gateways, JWT authentication security, and Docker/Kubernetes container orchestration.) Tj
+/F1 9 Tf
+1 0 0 1 60 508 Tm
+(- Reduced system latency by 35% through structured caching, asynchronous workers, and asset delivery optimization.) Tj
+/F2 12 Tf
+1 0 0 1 50 482 Tm
+(CORE TECHNICAL SKILLS) Tj
+/F2 9.5 Tf
+1 0 0 1 50 466 Tm
+(Frontend:) Tj
+/F1 9 Tf
+1 0 0 1 130 466 Tm
+(React.js, Next.js, JavaScript \(ES6+\), TypeScript, HTML5, CSS3, Tailwind CSS, Vite) Tj
+/F2 9.5 Tf
+1 0 0 1 50 452 Tm
+(Backend:) Tj
+/F1 9 Tf
+1 0 0 1 130 452 Tm
+(Node.js, Express.js, Java, Spring Boot, Python, RESTful APIs, GraphQL, Microservices) Tj
+/F2 9.5 Tf
+1 0 0 1 50 438 Tm
+(Database:) Tj
+/F1 9 Tf
+1 0 0 1 130 438 Tm
+(MongoDB Atlas, Mongoose, PostgreSQL, MySQL, Redis, Apache Superset) Tj
+/F2 9.5 Tf
+1 0 0 1 50 424 Tm
+(DevOps & Cloud:) Tj
+/F1 9 Tf
+1 0 0 1 130 424 Tm
+(Docker, Kubernetes, Microsoft Azure, AWS, CI/CD Actions, Linux, Git/GitHub) Tj
+/F2 12 Tf
+1 0 0 1 50 398 Tm
+(NOTABLE PROJECTS) Tj
+/F2 10 Tf
+1 0 0 1 50 382 Tm
+(1. AI Resume Analyzer & Proctoring Engine) Tj
+/F1 9 Tf
+1 0 0 1 60 369 Tm
+(- Built an automated resume parser evaluating ATS scores paired with real-time video/audio proctoring.) Tj
+/F1 9 Tf
+1 0 0 1 60 357 Tm
+(- Tech Stack: React, FastAPI, Node.js, Tailwind CSS, Python OpenCV.) Tj
+/F2 10 Tf
+1 0 0 1 50 340 Tm
+(2. Voice Emotion & Sentiment Tracker) Tj
+/F1 9 Tf
+1 0 0 1 60 327 Tm
+(- Real-time acoustic speech processing system predicting speaker emotional states and speech sentiments.) Tj
+/F1 9 Tf
+1 0 0 1 60 315 Tm
+(- Tech Stack: React, Express, Python Speech Models, Web Audio API.) Tj
+/F2 10 Tf
+1 0 0 1 50 298 Tm
+(3. Paytm Recharge & Utility Portal) Tj
+/F1 9 Tf
+1 0 0 1 60 285 Tm
+(- Full checkout simulator replicating mobile recharges, bill payments, and transactional state reconciliation.) Tj
+/F1 9 Tf
+1 0 0 1 60 273 Tm
+(- Tech Stack: React, Vite, Tailwind CSS, Node.js Backend.) Tj
+/F2 12 Tf
+1 0 0 1 50 247 Tm
+(EDUCATION) Tj
+/F2 10 Tf
+1 0 0 1 50 231 Tm
+(B.Tech in Computer Science & Engineering \(Data Science\)) Tj
+/F1 9 Tf
+1 0 0 1 50 219 Tm
+(Rajeev Gandhi Memorial College of Engineering and Technology  |  2023 - 2027) Tj
+/F2 10 Tf
+1 0 0 1 50 202 Tm
+(Higher Secondary Education \(Intermediate MPC\)) Tj
+/F1 9 Tf
+1 0 0 1 50 190 Tm
+(Narayana Junior College, Nellore  |  2021 - 2023) Tj
+/F2 10 Tf
+1 0 0 1 50 173 Tm
+(Secondary School Certificate \(SSC\)) Tj
+/F1 9 Tf
+1 0 0 1 50 161 Tm
+(Usha Kiran High School, Kadapa  |  Graduated 2021) Tj
+ET
+
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4528
+%%EOF

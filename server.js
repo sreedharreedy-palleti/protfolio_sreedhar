@@ -8,6 +8,7 @@ const contentRoutes = require('./routes/content.routes');
 const projectRoutes = require('./routes/projects.routes');
 const messageRoutes = require('./routes/messages.routes');
 const experienceRoutes = require('./routes/experience.routes');
+const aboutRoutes = require('./routes/about.routes');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -27,6 +28,7 @@ app.get('/', (req, res) => {
     message: 'Portfolio Backend API is running successfully',
     endpoints: {
       auth: '/api/auth',
+      about: '/api/about',
       content: '/api/content',
       projects: '/api/projects',
       experience: '/api/experience',
@@ -44,11 +46,16 @@ app.get('/api/health', (req, res) => {
 
 // Application Routes
 app.use('/api/auth', authRoutes);
+app.use('/api/about', aboutRoutes);
 app.use('/api/content', contentRoutes);
 app.use('/api/projects', projectRoutes);
 app.use('/api/experience', experienceRoutes);
 app.use('/api/messages', messageRoutes);
 app.use('/api/contact', messageRoutes); // Alias for contact form submissions
+
+// Direct resume download shortcuts for any user/recruiter
+app.get('/api/resume', (req, res) => res.redirect('/api/about/cv/download'));
+app.get('/resume', (req, res) => res.redirect('/api/about/cv/download'));
 
 // 404 Handler for unknown routes
 app.use((req, res) => {

@@ -3,10 +3,10 @@ const router = express.Router();
 const Experience = require('../models/Experience');
 const { verifyAdmin } = require('../middleware/auth.middleware');
 
-// GET all experiences (auto-seeds if database is empty)
+// GET all experiences (auto-seeds if database is empty, sorted newest first)
 router.get('/', async (req, res) => {
   try {
-    let experiences = await Experience.find().sort({ order: 1, createdAt: -1 });
+    let experiences = await Experience.find().sort({ createdAt: -1 });
 
     if (!experiences || experiences.length === 0) {
       try {
