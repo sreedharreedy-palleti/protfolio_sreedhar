@@ -40,7 +40,7 @@ const projectSchema = new mongoose.Schema(
 );
 
 // Pre-save middleware to keep content/description, points, and liveDemo/live synced
-projectSchema.pre('save', function (next) {
+projectSchema.pre('save', function () {
   const text = this.content || this.description || '';
   if (text) {
     this.points = extractPoints(text);
@@ -56,7 +56,6 @@ projectSchema.pre('save', function (next) {
   } else if (this.live && !this.liveDemo) {
     this.liveDemo = this.live;
   }
-  next();
 });
 
 module.exports = mongoose.models.Project || mongoose.model('Project', projectSchema);

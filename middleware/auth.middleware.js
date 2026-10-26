@@ -1,6 +1,8 @@
 const jwt = require('jsonwebtoken');
 
 const JWT_SECRET = process.env.JWT_SECRET || 'super_secret_jwt_portfolio_key_987654321_secure';
+const ADMIN_SECRET = process.env.ADMIN_SECRET || 'myadminsecret123';
+const ADMIN_USERNAME = process.env.ADMIN_USERNAME || 'admin';
 
 const verifyAdmin = (req, res, next) => {
   const authHeader = req.headers['authorization'];
@@ -22,8 +24,8 @@ const verifyAdmin = (req, res, next) => {
       return next();
     } catch (err) {
       // If token verification failed, check if fallback x-admin-secret is valid
-      if (secretHeader && secretHeader === process.env.ADMIN_SECRET) {
-        req.admin = { role: 'admin', username: process.env.ADMIN_USERNAME || 'admin' };
+      if (secretHeader && secretHeader === ADMIN_SECRET) {
+        req.admin = { role: 'admin', username: ADMIN_USERNAME };
         return next();
       }
       return res.status(401).json({
@@ -35,8 +37,8 @@ const verifyAdmin = (req, res, next) => {
 
   // Fallback to x-admin-secret header
   if (secretHeader) {
-    if (secretHeader === process.env.ADMIN_SECRET) {
-      req.admin = { role: 'admin', username: process.env.ADMIN_USERNAME || 'admin' };
+    if (secretHeader === ADMIN_SECRET) {
+      req.admin = { role: 'admin', username: ADMIN_USERNAME };
       return next();
     }
     return res.status(401).json({
