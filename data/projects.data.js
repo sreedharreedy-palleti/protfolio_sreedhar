@@ -1,32 +1,22 @@
 const projects = [
   {
     id: 1,
-    title: 'AI Resume Analyzer & Proctoring Engine',
-    content: 'ATS resume scoring paired with an automated proctoring microservice.',
-    description: 'ATS resume scoring paired with an automated proctoring microservice.',
+    title: 'RS Infra – Construction based website',
+    content: '• Designed and developed a responsive full-stack construction web application using React and FastAPI, incorporating custom interactive UI components and dynamic sector pages.\n• Engineered secure backend RESTful APIs and connected database pipelines to manage real-time client inquiries, service listings, and project portfolio data.\n• Optimized application load times and cross-browser responsiveness, managing end-to-end deployment.',
+    description: '• Designed and developed a responsive full-stack construction web application using React and FastAPI, incorporating custom interactive UI components and dynamic sector pages.\n• Engineered secure backend RESTful APIs and connected database pipelines to manage real-time client inquiries, service listings, and project portfolio data.\n• Optimized application load times and cross-browser responsiveness, managing end-to-end deployment.',
     liveDemo: 'https://example.com',
     live: 'https://example.com',
-    tech: ['React', 'Node.js', 'FastAPI', 'Tailwind CSS'],
+    tech: ['React', 'Node.js', 'Express.js', 'FastAPI', 'Render', 'Netlify'],
     github: 'https://github.com'
   },
   {
     id: 2,
-    title: 'Voice Emotion & Sentiment Tracker',
-    content: 'Real-time emotion detection web app using speech processing models.',
-    description: 'Real-time emotion detection web app using speech processing models.',
+    title: 'AI-Powered Automated Interview & Candidate Assessment Platform',
+    content: '• Built an end-to-end AI interviewing platform that streams video/audio responses and conducts dynamic technical evaluations without manual intervention.\n• Fine-tuned Transformer models (BERT/RoBERTa) and integrated Whisper speech-to-text for automated semantic scoring, sentiment analysis, and transcriptions.\n• Engineered a high-performance FastAPI backend to automate scheduling, real-time response processing, and feedback report generation.',
+    description: '• Built an end-to-end AI interviewing platform that streams video/audio responses and conducts dynamic technical evaluations without manual intervention.\n• Fine-tuned Transformer models (BERT/RoBERTa) and integrated Whisper speech-to-text for automated semantic scoring, sentiment analysis, and transcriptions.\n• Engineered a high-performance FastAPI backend to automate scheduling, real-time response processing, and feedback report generation.',
     liveDemo: 'https://example.com',
     live: 'https://example.com',
-    tech: ['React', 'Express', 'Python', 'Web Audio API'],
-    github: 'https://github.com'
-  },
-  {
-    id: 3,
-    title: 'Paytm Recharge & Utility Portal',
-    content: 'Full frontend checkout flow simulating mobile and utility bill recharges.',
-    description: 'Full frontend checkout flow simulating mobile and utility bill recharges.',
-    liveDemo: 'https://example.com',
-    live: 'https://example.com',
-    tech: ['React', 'Vite', 'Tailwind CSS'],
+    tech: ['Python', 'PyTorch', 'NLP', 'Transformers (Whisper, BERT)', 'FastAPI', 'MongoDB'],
     github: 'https://github.com'
   }
 ];
